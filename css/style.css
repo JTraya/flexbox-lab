@@ -49,11 +49,16 @@
     border-radius: 29px;
     border: 0px;
     padding: 0 24px;
+    display: flex;
   }
   
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   
   nav button {
@@ -74,6 +79,10 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
   }
   
   .card-footer * {
@@ -83,6 +92,8 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   #subnav button {
@@ -108,5 +119,18 @@
   #actions {
     display: flex;
     gap: 16px;
+    align-items: center;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #trending {
+    display: flex;
+    gap: 12px;
     align-items: center;
   }
